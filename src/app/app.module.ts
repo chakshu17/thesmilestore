@@ -13,6 +13,7 @@ import { OrthodonticsComponent } from './treatment/orthodontics/orthodontics.com
 import { ImpactedteethComponent } from './treatment/impactedteeth/impactedteeth.component';
 import { PatienteducationComponent } from './treatment/patienteducation/patienteducation.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { AboutusComponent } from './aboutus/aboutus.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
