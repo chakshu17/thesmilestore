@@ -12,6 +12,7 @@ import { PediatricdentistryComponent } from './treatment/pediatricdentistry/pedi
 import { OrthodonticsComponent } from './treatment/orthodontics/orthodontics.component';
 import { ImpactedteethComponent } from './treatment/impactedteeth/impactedteeth.component';
 import { PatienteducationComponent } from './treatment/patienteducation/patienteducation.component';
+import { AboutusComponent } from './aboutus/aboutus.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { PatienteducationComponent } from './treatment/patienteducation/patiente
     PediatricdentistryComponent,
     OrthodonticsComponent,
     ImpactedteethComponent,
-    PatienteducationComponent
+    PatienteducationComponent,
+    AboutusComponent
   ],
   imports: [
     BrowserModule,
