@@ -1,0 +1,39 @@
+<div fxLayout="column" fxLayoutAlign="center center" style="padding: 50px;">
+  <h1
+    fxLayout="column"
+    fxLayoutAlign="center "
+    style="
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 40px;
+      padding: 20px;
+    "
+  >
+    Contact Us
+  </h1>
+  <mat-card fxLayout="column" fxLayoutAlign="center center">
+    <mat-card-content >
+      <form  fxLayoutAlign="center center" fxLayout="column">
+        <mat-form-field>
+          <mat-label>Name</mat-label>
+          <input class="input" matInput required placeholder="Enter the Name" ngModel value="" name="name"/>
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>Email</mat-label>
+          <input class="input" matInput required placeholder="Enter the email"ngModel value="" name="email" />
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>Phone Number</mat-label>
+          <input class="input" matInput required placeholder="Enter the Ph.No"ngModel value="" name="ph"/>
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>Treatment Needed</mat-label>
+          <input class="input" matInput required placeholder="Treatment Needed" ngModel value="" name="treatment" />
+        </mat-form-field>
+
+        <mat-card-actions>
+          <button mat-raised-button color="primary" type="submit" > Submit</button>
+        </mat-card-actions>
+      </form>
+    </mat-card-content>
+  </mat-card>
+</div>

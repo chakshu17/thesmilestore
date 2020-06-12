@@ -14,6 +14,10 @@ import { ImpactedteethComponent } from './treatment/impactedteeth/impactedteeth.
 import { PatienteducationComponent } from './treatment/patienteducation/patienteducation.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import {MatCardModule} from '@angular/material/card';
+import { ContactusComponent } from './contactus/contactus.component';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import { LoginComponent } from './login/login.component';
+import {MatInputModule} from '@angular/material/input';
 
 @NgModule({
   declarations: [
@@ -26,14 +30,18 @@ import {MatCardModule} from '@angular/material/card';
     OrthodonticsComponent,
     ImpactedteethComponent,
     PatienteducationComponent,
-    AboutusComponent
+    AboutusComponent,
+    ContactusComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     FlexLayoutModule,
-    MatCardModule
+    MatCardModule,
+    MatFormFieldModule,
+    MatInputModule
   ],
   providers: [],
   bootstrap: [AppComponent]
