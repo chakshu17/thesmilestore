@@ -18,6 +18,17 @@ import { ContactusComponent } from './contactus/contactus.component';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { LoginComponent } from './login/login.component';
 import {MatInputModule} from '@angular/material/input';
+import { LogoImageComponent } from './logo-image/logo-image.component';
+import { CosmeticDentistryComponent } from './treatment/cosmetic-dentistry/cosmetic-dentistry.component';
+import { DentalImplantsComponent } from './treatment/dental-implants/dental-implants.component';
+import { DentaljewelleryComponent } from './treatment/dentaljewellery/dentaljewellery.component';
+import { FullMouthRehabilitationComponent } from './treatment/full-mouth-rehabilitation/full-mouth-rehabilitation.component';
+import { InvisalignComponent } from './treatment/invisalign/invisalign.component';
+import { PorcelainLaminateVeneersComponent } from './treatment/porcelain-laminate-veneers/porcelain-laminate-veneers.component';
+import { SmileDesigningComponent } from './treatment/smile-designing/smile-designing.component';
+import { ToothColouredFillingComponent } from './treatment/tooth-coloured-filling/tooth-coloured-filling.component';
+import { ToothWhiteningComponent } from './treatment/tooth-whitening/tooth-whitening.component';
+import { TreatmentPageComponent } from './treatment/treatment-page/treatment-page.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +43,18 @@ import {MatInputModule} from '@angular/material/input';
     PatienteducationComponent,
     AboutusComponent,
     ContactusComponent,
-    LoginComponent
+    LoginComponent,
+    LogoImageComponent,
+    CosmeticDentistryComponent,
+    DentalImplantsComponent,
+    DentaljewelleryComponent,
+    FullMouthRehabilitationComponent,
+    InvisalignComponent,
+    PorcelainLaminateVeneersComponent,
+    SmileDesigningComponent,
+    ToothColouredFillingComponent,
+    ToothWhiteningComponent,
+    TreatmentPageComponent
   ],
   imports: [
     BrowserModule,
