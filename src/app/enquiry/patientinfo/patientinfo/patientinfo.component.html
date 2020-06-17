@@ -1,0 +1,46 @@
+<div fxLayout="column" fxLayoutAlign="center center" style="padding: 50px;">
+  <h1
+    fxLayout="column"
+    fxLayoutAlign="center "
+    style="
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 50px;
+      padding: 20px;
+    "
+  >
+    Patient Details
+  </h1>
+  <mat-card fxLayout="column" fxLayoutAlign="center center" >
+    <mat-card-content >
+      <form  fxLayoutAlign="center center" fxLayout="column">
+        <mat-form-field>
+          <mat-label>Patient Name </mat-label>
+          <input class="input" matInput required placeholder="Enter the Patient Name" ngModel  name="patientname"/>
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>Patient Contact number</mat-label>
+          <input class="input" matInput required placeholder="Enter the Contact Number" ngModel  name="contactnumber"  />
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>Patient Age</mat-label>
+          <input class="input" matInput required placeholder="Enter Age" ngModel  name="age"  />
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>Gender</mat-label>
+          <mat-radio-group aria-label="Gender ">
+            <mat-radio-button value="male">Male</mat-radio-button>
+            <mat-radio-button value="female">Female</mat-radio-button>
+            <mat-radio-button value="others">Others</mat-radio-button>
+          </mat-radio-group>
+        </mat-form-field>
+        <mat-form-field>
+          <mat-label>Patient Email ID</mat-label>
+          <input class="input" matInput  placeholder="Enter the Email ID" ngModel  name="emailid"  />
+        </mat-form-field>
+        <mat-card-actions>
+          <button mat-raised-button color="primary" type="submit" > Submit </button>
+        </mat-card-actions>
+      </form>
+    </mat-card-content>
+  </mat-card>
+</div>

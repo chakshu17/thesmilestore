@@ -29,6 +29,8 @@ import { SmileDesigningComponent } from './treatment/smile-designing/smile-desig
 import { ToothColouredFillingComponent } from './treatment/tooth-coloured-filling/tooth-coloured-filling.component';
 import { ToothWhiteningComponent } from './treatment/tooth-whitening/tooth-whitening.component';
 import { TreatmentPageComponent } from './treatment/treatment-page/treatment-page.component';
+import { PatientinfoComponent } from './enquiry/patientinfo/patientinfo/patientinfo.component';
+import {MatRadioModule} from '@angular/material/radio';
 
 @NgModule({
   declarations: [
@@ -54,7 +56,8 @@ import { TreatmentPageComponent } from './treatment/treatment-page/treatment-pag
     SmileDesigningComponent,
     ToothColouredFillingComponent,
     ToothWhiteningComponent,
-    TreatmentPageComponent
+    TreatmentPageComponent,
+    PatientinfoComponent
   ],
   imports: [
     BrowserModule,
@@ -63,7 +66,8 @@ import { TreatmentPageComponent } from './treatment/treatment-page/treatment-pag
     FlexLayoutModule,
     MatCardModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatRadioModule
   ],
   providers: [],
   bootstrap: [AppComponent]
