@@ -40,6 +40,10 @@ import {FormsModule} from '@angular/forms'
 import { AngularFireModule } from '@angular/fire';
 import { environment } from '../environments/environment';
 import { AngularFirestoreModule } from '@angular/fire/firestore';
+import { HomeComponent } from './home/home.component';
+import { HeaderComponent } from './toolbar/header/header.component';
+import {MatIconModule} from '@angular/material/icon';
+
 
 @NgModule({
   declarations: [
@@ -69,7 +73,9 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
     PatientinfoComponent,
     FooterComponent,
     AboutdeveloperComponent,
-    DialogComponent
+    DialogComponent,
+    HomeComponent,
+    HeaderComponent,
   ],
   imports: [
     BrowserModule,
@@ -84,7 +90,8 @@ import { AngularFirestoreModule } from '@angular/fire/firestore';
     MatDialogModule,
     FormsModule,
     AngularFireModule.initializeApp(environment.firebase),
-    AngularFirestoreModule
+    AngularFirestoreModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

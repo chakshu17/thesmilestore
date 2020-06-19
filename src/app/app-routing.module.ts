@@ -19,6 +19,8 @@ import { FullMouthRehabilitationComponent } from './treatment/full-mouth-rehabil
 import { CosmeticDentistryComponent } from './treatment/cosmetic-dentistry/cosmetic-dentistry.component';
 import { DentalImplantsComponent } from './treatment/dental-implants/dental-implants.component';
 import { TreatmentPageComponent } from './treatment/treatment-page/treatment-page.component';
+import { HomeComponent } from './home/home.component';
+import { AboutdeveloperComponent } from './aboutdeveloper/aboutdeveloper.component';
 
 
 const routes: Routes = [
@@ -42,7 +44,11 @@ const routes: Routes = [
   //aboutus
  {path:'aboutus',component:AboutusComponent},
  //contactus
- {path:'contactus',component:ContactusComponent}
+ {path:'contactus',component:ContactusComponent},
+ //Home
+ {path:'home',component:HomeComponent},
+ //about developer
+ {path:'aboutdeveloper',component:AboutdeveloperComponent}
 ];
 
 @NgModule({
