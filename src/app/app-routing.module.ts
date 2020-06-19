@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { ContactusComponent } from './contactus/contactus.component';
-import { TreatmentPageComponent } from './treatment/treatment-page/treatment-page.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
 import { RootcanalComponent } from './treatment/rootcanal/rootcanal.component';
 import { PeriodonticsComponent } from './treatment/periodontics/periodontics.component';
@@ -19,10 +18,11 @@ import { InvisalignComponent } from './treatment/invisalign/invisalign.component
 import { FullMouthRehabilitationComponent } from './treatment/full-mouth-rehabilitation/full-mouth-rehabilitation.component';
 import { CosmeticDentistryComponent } from './treatment/cosmetic-dentistry/cosmetic-dentistry.component';
 import { DentalImplantsComponent } from './treatment/dental-implants/dental-implants.component';
+import { TreatmentPageComponent } from './treatment/treatment-page/treatment-page.component';
 
 
 const routes: Routes = [
-  {path:'TreatmentPage',component:TreatmentPageComponent},
+  {path:'Treatment',component:TreatmentPageComponent},
   { path: 'DentalImplants', component: DentalImplantsComponent },
   { path: 'CosmeticDentistry', component: CosmeticDentistryComponent },
   {path: 'FullMouthRehabilitation',component: FullMouthRehabilitationComponent,},

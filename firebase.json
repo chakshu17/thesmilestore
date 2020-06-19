@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "thesmilestore",
+      "public": "dist/thesmilestore",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "smilestore-c8921": {
+      "hosting": {
+        "thesmilestore": [
+          "smilestore-c8921"
+        ]
+      }
+    }
+  }
+}

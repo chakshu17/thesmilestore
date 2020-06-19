@@ -31,6 +31,15 @@ import { ToothWhiteningComponent } from './treatment/tooth-whitening/tooth-white
 import { TreatmentPageComponent } from './treatment/treatment-page/treatment-page.component';
 import { PatientinfoComponent } from './enquiry/patientinfo/patientinfo/patientinfo.component';
 import {MatRadioModule} from '@angular/material/radio';
+import { FooterComponent } from './footer/footer.component';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import { AboutdeveloperComponent } from './aboutdeveloper/aboutdeveloper.component';
+import { DialogComponent } from './enquiry/dialog/dialog/dialog.component';
+import {MatDialogModule} from '@angular/material/dialog';
+import {FormsModule} from '@angular/forms'
+import { AngularFireModule } from '@angular/fire';
+import { environment } from '../environments/environment';
+import { AngularFirestoreModule } from '@angular/fire/firestore';
 
 @NgModule({
   declarations: [
@@ -57,7 +66,10 @@ import {MatRadioModule} from '@angular/material/radio';
     ToothColouredFillingComponent,
     ToothWhiteningComponent,
     TreatmentPageComponent,
-    PatientinfoComponent
+    PatientinfoComponent,
+    FooterComponent,
+    AboutdeveloperComponent,
+    DialogComponent
   ],
   imports: [
     BrowserModule,
@@ -67,7 +79,12 @@ import {MatRadioModule} from '@angular/material/radio';
     MatCardModule,
     MatFormFieldModule,
     MatInputModule,
-    MatRadioModule
+    MatRadioModule,
+    MatToolbarModule,
+    MatDialogModule,
+    FormsModule,
+    AngularFireModule.initializeApp(environment.firebase),
+    AngularFirestoreModule
   ],
   providers: [],
   bootstrap: [AppComponent]
